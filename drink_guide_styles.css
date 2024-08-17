@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  @media (min-width: 801px) {
+    .info-page {
+      margin-left: 237px;
+    }
+    #section-1, #section-2, #section-3, #section-4,
+    #section-5, #section-6, #section-7,
+    #section-8, #section-9, #section-10{
+      position: relative;
+      top: 4px;
+    }
+  }
+  @media (max-width: 800px) {
+    .info-page {
+      margin-top: 130px;
+      margin-left: -9px;
+    }
+    .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .nav-bar{
+      z-index: 999;
+    }
+    .nav-link {
+      padding-left: 5px;
+      padding-right: 15px;
+    }
+    #section-1, #section-2, #section-3, #section-4,
+    #section-5, #section-6, #section-7,
+    #section-8, #section-9, #section-10{
+      position: relative;
+      top: -150px;
+    }
+  }
+  html{
+    font-family: sans-serif;
+    background-color: cyan;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  main section  {
+    display: inline-block;
+  }
+  
+  
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    font-weight: bold;
+    position: fixed;
+    min-width: 245px;
+    left: 0;
+    padding-top: 10;
+    top: 0px;
+  }
+  
+  .nav-link:hover {
+    background: linear-gradient(90deg, hotpink, pink);
+    border: 1px dashed black;
+    box-shadow: 0 5px 0px inset black;
+    padding-top: 4px;
+  }
+  
+  .nav-link {
+    border: 1px dashed black;
+    background-color: cyan;
+    height: 40px;
+  }
+
+  .nav-bar header {
+    position: relative;
+    top: -12px;
+    font-style: bold;
+    border-bottom: 2px solid transparent;
+    background-color: pink;
+    font-size: 25px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: -12px;
+    text-align: center;
+    border-radius: 0px 0px 0px 30px;
+  }
+  
+  .nav-bar {
+    height: 100%;
+  }
+  .info-page {
+    position: relative;
+    top: -37px;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: left;
+    display: block;
+  }
+
+  #flex-row {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    min-width: 450px;
+  }
+
+  h2 {
+    position: relative;
+    background: linear-gradient(45deg, pink, cyan);
+    margin-left: -20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+  }
+
+
+  
