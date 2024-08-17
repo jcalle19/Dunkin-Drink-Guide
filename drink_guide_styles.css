@@ -20,7 +20,7 @@
   }
   @media (max-width: 800px) {
     .info-page {
-      margin-top: 130px;
+      margin-top: 163px;
       margin-left: -9px;
     }
     .nav-buttons {
@@ -102,7 +102,7 @@
   }
   .info-page {
     position: relative;
-    top: -37px;
+    top: -33px;
     width: 70%;
     height: fit-content;
     display: flex;
